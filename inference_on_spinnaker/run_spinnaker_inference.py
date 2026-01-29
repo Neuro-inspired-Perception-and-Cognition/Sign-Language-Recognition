@@ -125,7 +125,7 @@ class SignDataset_spinnaker:
 
 
 input_spatial_size = 48
-test_root = r"D:\gesture-recognition-paper\data\ASL_DVS\test_5_ROI_spikes_35ms_mini\test_5_ROI_spikes_35ms_minimini"
+test_root = r"path/to/the/data/testset"
 test_dataset_spinn = SignDataset_spinnaker(test_root, H=input_spatial_size, W=input_spatial_size, transform = None)
 val_loader = DataLoader(test_dataset_spinn, batch_size=1, shuffle=False, collate_fn=lambda batch: batch[0])
 print(f"Val loader size: {len(val_loader)}")
@@ -213,9 +213,9 @@ model_snn_cpu = TinyConvSNN_24_FC(
 # ----------------------------------------------------------------------
 # LOAD MODEL
 # ----------------------------------------------------------------------
-model_name = "tiny_conv_up_08_ASLDVS_finetune_cleaninit.pt"
+model_name = "ASL-DVS_35ms_model.pt"
 checkpoint = torch.load(
-    f"D:\\gesture-recognition-paper\\finetuning-spinnaker\\{model_name}", map_location=device)
+    f"model_weights/{model_name}", map_location=device) #adjust path
 model_snn_cpu.load_state_dict(checkpoint["model_state_dict"], strict=False)
 
 # Copy pretrained weights
