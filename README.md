@@ -5,7 +5,11 @@ This repository contains the code accompanying the paper:
 “[Paper title]”
 [Authors], [Conference / Journal], [Year]
 
+
+
 The codebase provides a complete pipeline for event-based sign language recognition, covering data preprocessing from raw event streams, spike encoding, spiking neural network (SNN) training, and deployment on neuromorphic hardware.
+
+![Architecture diagram](media/sign_recognition_system_diagram.png)
 
 The repository is organized to reflect the full experimental pipeline used in the paper:
 	•	Dataset aquisition: - the original ASL-DVS dataset is available at:  
@@ -24,5 +28,5 @@ The repository is organized to reflect the full experimental pipeline used in th
 The original ASL-DVS dataset available at: https://drive.google.com/drive/folders/1tK5OY3pkjppYwAnLF8bnxGdaFbYEA8iY  
 datasets available at: https://drive.google.com/drive/folders/1ti0ou-iGFHyBpfTag3ftHcD25nXTtrfj?usp=sharing
 IEBCS: https://github.com/neuromorphicsystems/IEBCS/tree/main  
-![Architecture diagram](media/sign_recognition_system_diagram.png)
+
 
