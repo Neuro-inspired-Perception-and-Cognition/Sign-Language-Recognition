@@ -8,7 +8,7 @@ This repository contains the code accompanying the paper:
 The codebase provides a complete pipeline for event-based sign language fingerspelling recognition, covering data preprocessing from raw event streams, region-of-interest- selection via sVA attention model, spike encoding, spiking neural network (SNN) training,   
 and deployment on neuromorphic hardware.
 
-![Architecture diagram](media/sign_recognition_system_diagram.png)
+![Architecture diagram](media/sign_recognition_system_diagram.drawio.png)
 # Pipeline overview
 The repository is organized to reflect the full experimental pipeline used in the paper.  
 
