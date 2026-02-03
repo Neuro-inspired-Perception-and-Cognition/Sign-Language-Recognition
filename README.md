@@ -51,7 +51,9 @@ The repository is organized to reflect the full experimental pipeline used in th
 │   └── SL_MNIST_to_DVS_events.py
 │
 ├── sVA_roi_selection/
-│   └── apply_attention_extract_ROI.py
+│   ├── apply_attention_extract_ROI.py
+│   ├── attention.py
+│   └── prepare_data_functions.py
 │
 ├── requirements.txt
 └── README.md
