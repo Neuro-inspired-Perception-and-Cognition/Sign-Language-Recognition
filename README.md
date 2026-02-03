@@ -1,7 +1,7 @@
 # Sign Language Fingerspelling Recognition on SpiNNaker
 
 This repository contains the code accompanying the paper:   
-**“Neuromorphic visual attention for Sign-language recognition on SpiNNaker”** by S. Liskova, O. Vedmedenko, M. Fatahi, M. Hoffmann, M. Furlong and G. D'Angelo, 2026  
+**“Neuromorphic visual attention for Sign-language recognition on SpiNNaker”** by S. Liskova, O. Vedmedenko, M. Fatahi, M. Hoffmann, P. M. Furlong and G. D'Angelo, 2026  
 
 
 
